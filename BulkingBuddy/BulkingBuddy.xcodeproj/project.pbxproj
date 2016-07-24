@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D12F3B3D1D452550000AF09C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12F3B3C1D452550000AF09C /* AppDelegate.swift */; };
+		D12F3B3F1D452550000AF09C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12F3B3E1D452550000AF09C /* RootViewController.swift */; };
+		D12F3B411D452550000AF09C /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12F3B401D452550000AF09C /* DataViewController.swift */; };
+		D12F3B431D452550000AF09C /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12F3B421D452550000AF09C /* ModelController.swift */; };
+		D12F3B461D452550000AF09C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12F3B441D452550000AF09C /* Main.storyboard */; };
+		D12F3B481D452550000AF09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12F3B471D452550000AF09C /* Assets.xcassets */; };
+		D12F3B4B1D452550000AF09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12F3B491D452550000AF09C /* LaunchScreen.storyboard */; };
+		D12F3B561D452550000AF09C /* BulkingBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12F3B551D452550000AF09C /* BulkingBuddyTests.swift */; };
+		D12F3B611D452550000AF09C /* BulkingBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12F3B601D452550000AF09C /* BulkingBuddyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D12F3B521D452550000AF09C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12F3B311D452550000AF09C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12F3B381D452550000AF09C;
+			remoteInfo = BulkingBuddy;
+		};
+		D12F3B5D1D452550000AF09C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12F3B311D452550000AF09C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12F3B381D452550000AF09C;
+			remoteInfo = BulkingBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D12F3B391D452550000AF09C /* BulkingBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulkingBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12F3B3C1D452550000AF09C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D12F3B3E1D452550000AF09C /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D12F3B401D452550000AF09C /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		D12F3B421D452550000AF09C /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		D12F3B451D452550000AF09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D12F3B471D452550000AF09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D12F3B4A1D452550000AF09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D12F3B4C1D452550000AF09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12F3B511D452550000AF09C /* BulkingBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BulkingBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12F3B551D452550000AF09C /* BulkingBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkingBuddyTests.swift; sourceTree = "<group>"; };
+		D12F3B571D452550000AF09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12F3B5C1D452550000AF09C /* BulkingBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BulkingBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12F3B601D452550000AF09C /* BulkingBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkingBuddyUITests.swift; sourceTree = "<group>"; };
+		D12F3B621D452550000AF09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D12F3B361D452550000AF09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12F3B4E1D452550000AF09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12F3B591D452550000AF09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D12F3B301D452550000AF09C = {
+			isa = PBXGroup;
+			children = (
+				D12F3B3B1D452550000AF09C /* BulkingBuddy */,
+				D12F3B541D452550000AF09C /* BulkingBuddyTests */,
+				D12F3B5F1D452550000AF09C /* BulkingBuddyUITests */,
+				D12F3B3A1D452550000AF09C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D12F3B3A1D452550000AF09C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D12F3B391D452550000AF09C /* BulkingBuddy.app */,
+				D12F3B511D452550000AF09C /* BulkingBuddyTests.xctest */,
+				D12F3B5C1D452550000AF09C /* BulkingBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D12F3B3B1D452550000AF09C /* BulkingBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				D12F3B3C1D452550000AF09C /* AppDelegate.swift */,
+				D12F3B3E1D452550000AF09C /* RootViewController.swift */,
+				D12F3B401D452550000AF09C /* DataViewController.swift */,
+				D12F3B421D452550000AF09C /* ModelController.swift */,
+				D12F3B441D452550000AF09C /* Main.storyboard */,
+				D12F3B471D452550000AF09C /* Assets.xcassets */,
+				D12F3B491D452550000AF09C /* LaunchScreen.storyboard */,
+				D12F3B4C1D452550000AF09C /* Info.plist */,
+			);
+			path = BulkingBuddy;
+			sourceTree = "<group>";
+		};
+		D12F3B541D452550000AF09C /* BulkingBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D12F3B551D452550000AF09C /* BulkingBuddyTests.swift */,
+				D12F3B571D452550000AF09C /* Info.plist */,
+			);
+			path = BulkingBuddyTests;
+			sourceTree = "<group>";
+		};
+		D12F3B5F1D452550000AF09C /* BulkingBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D12F3B601D452550000AF09C /* BulkingBuddyUITests.swift */,
+				D12F3B621D452550000AF09C /* Info.plist */,
+			);
+			path = BulkingBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D12F3B381D452550000AF09C /* BulkingBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12F3B651D452550000AF09C /* Build configuration list for PBXNativeTarget "BulkingBuddy" */;
+			buildPhases = (
+				D12F3B351D452550000AF09C /* Sources */,
+				D12F3B361D452550000AF09C /* Frameworks */,
+				D12F3B371D452550000AF09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulkingBuddy;
+			productName = BulkingBuddy;
+			productReference = D12F3B391D452550000AF09C /* BulkingBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D12F3B501D452550000AF09C /* BulkingBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12F3B681D452550000AF09C /* Build configuration list for PBXNativeTarget "BulkingBuddyTests" */;
+			buildPhases = (
+				D12F3B4D1D452550000AF09C /* Sources */,
+				D12F3B4E1D452550000AF09C /* Frameworks */,
+				D12F3B4F1D452550000AF09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12F3B531D452550000AF09C /* PBXTargetDependency */,
+			);
+			name = BulkingBuddyTests;
+			productName = BulkingBuddyTests;
+			productReference = D12F3B511D452550000AF09C /* BulkingBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D12F3B5B1D452550000AF09C /* BulkingBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12F3B6B1D452550000AF09C /* Build configuration list for PBXNativeTarget "BulkingBuddyUITests" */;
+			buildPhases = (
+				D12F3B581D452550000AF09C /* Sources */,
+				D12F3B591D452550000AF09C /* Frameworks */,
+				D12F3B5A1D452550000AF09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12F3B5E1D452550000AF09C /* PBXTargetDependency */,
+			);
+			name = BulkingBuddyUITests;
+			productName = BulkingBuddyUITests;
+			productReference = D12F3B5C1D452550000AF09C /* BulkingBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D12F3B311D452550000AF09C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nathanial Stewart";
+				TargetAttributes = {
+					D12F3B381D452550000AF09C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D12F3B501D452550000AF09C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D12F3B381D452550000AF09C;
+					};
+					D12F3B5B1D452550000AF09C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D12F3B381D452550000AF09C;
+					};
+				};
+			};
+			buildConfigurationList = D12F3B341D452550000AF09C /* Build configuration list for PBXProject "BulkingBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D12F3B301D452550000AF09C;
+			productRefGroup = D12F3B3A1D452550000AF09C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D12F3B381D452550000AF09C /* BulkingBuddy */,
+				D12F3B501D452550000AF09C /* BulkingBuddyTests */,
+				D12F3B5B1D452550000AF09C /* BulkingBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D12F3B371D452550000AF09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12F3B4B1D452550000AF09C /* LaunchScreen.storyboard in Resources */,
+				D12F3B481D452550000AF09C /* Assets.xcassets in Resources */,
+				D12F3B461D452550000AF09C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12F3B4F1D452550000AF09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12F3B5A1D452550000AF09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D12F3B351D452550000AF09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12F3B3F1D452550000AF09C /* RootViewController.swift in Sources */,
+				D12F3B431D452550000AF09C /* ModelController.swift in Sources */,
+				D12F3B411D452550000AF09C /* DataViewController.swift in Sources */,
+				D12F3B3D1D452550000AF09C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12F3B4D1D452550000AF09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12F3B561D452550000AF09C /* BulkingBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12F3B581D452550000AF09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12F3B611D452550000AF09C /* BulkingBuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D12F3B531D452550000AF09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12F3B381D452550000AF09C /* BulkingBuddy */;
+			targetProxy = D12F3B521D452550000AF09C /* PBXContainerItemProxy */;
+		};
+		D12F3B5E1D452550000AF09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12F3B381D452550000AF09C /* BulkingBuddy */;
+			targetProxy = D12F3B5D1D452550000AF09C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D12F3B441D452550000AF09C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12F3B451D452550000AF09C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D12F3B491D452550000AF09C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12F3B4A1D452550000AF09C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D12F3B631D452550000AF09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D12F3B641D452550000AF09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D12F3B661D452550000AF09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BulkingBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathanial-Stewart.BulkingBuddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D12F3B671D452550000AF09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BulkingBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathanial-Stewart.BulkingBuddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D12F3B691D452550000AF09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BulkingBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathanial-Stewart.BulkingBuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BulkingBuddy.app/BulkingBuddy";
+			};
+			name = Debug;
+		};
+		D12F3B6A1D452550000AF09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BulkingBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathanial-Stewart.BulkingBuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BulkingBuddy.app/BulkingBuddy";
+			};
+			name = Release;
+		};
+		D12F3B6C1D452550000AF09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BulkingBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathanial-Stewart.BulkingBuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BulkingBuddy;
+			};
+			name = Debug;
+		};
+		D12F3B6D1D452550000AF09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BulkingBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathanial-Stewart.BulkingBuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BulkingBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D12F3B341D452550000AF09C /* Build configuration list for PBXProject "BulkingBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12F3B631D452550000AF09C /* Debug */,
+				D12F3B641D452550000AF09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12F3B651D452550000AF09C /* Build configuration list for PBXNativeTarget "BulkingBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12F3B661D452550000AF09C /* Debug */,
+				D12F3B671D452550000AF09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D12F3B681D452550000AF09C /* Build configuration list for PBXNativeTarget "BulkingBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12F3B691D452550000AF09C /* Debug */,
+				D12F3B6A1D452550000AF09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D12F3B6B1D452550000AF09C /* Build configuration list for PBXNativeTarget "BulkingBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12F3B6C1D452550000AF09C /* Debug */,
+				D12F3B6D1D452550000AF09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D12F3B311D452550000AF09C /* Project object */;
+}
